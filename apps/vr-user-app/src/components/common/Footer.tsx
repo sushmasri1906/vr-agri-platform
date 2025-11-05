@@ -2,7 +2,6 @@ import Link from "next/link";
 import {
 	FaMapMarkerAlt,
 	FaEnvelope,
-	FaPhone,
 	FaGlobe,
 	FaFacebookF,
 	FaInstagram,
@@ -81,7 +80,6 @@ export default function Footer() {
 						{[
 							{ name: "Blog", href: "/blog" },
 							{ name: "Gallery", href: "/gallery" },
-							{ name: "Privacy Policy", href: "#" },
 						].map((item, i) => (
 							<li key={i}>
 								<Link
@@ -101,8 +99,7 @@ export default function Footer() {
 						<li className="flex items-start gap-2">
 							<FaMapMarkerAlt className="mt-1 text-orange-500" />
 							<div>
-								<p>#101, Dwarakapuri Colony, Panjagutta</p>
-								<p>Hyderabad, Telangana – 500082</p>
+								<p>Hyderabad,India</p>
 							</div>
 						</li>
 						<li className="flex items-center gap-2">
@@ -113,14 +110,7 @@ export default function Footer() {
 								contact@vragrifarms.com
 							</a>
 						</li>
-						<li className="flex items-center gap-2">
-							<FaPhone className="text-orange-500" />
-							<a
-								href="tel:+919515934289"
-								className="hover:text-orange-500 transition-colors">
-								+91 9515934289
-							</a>
-						</li>
+
 						<li className="flex items-center gap-2">
 							<FaGlobe className="text-orange-500" />
 							<a
@@ -131,7 +121,6 @@ export default function Footer() {
 								vragrifarms.com
 							</a>
 						</li>
-						
 					</ul>
 				</div>
 			</div>
@@ -143,11 +132,11 @@ export default function Footer() {
 				<br />
 				Developed by{" "}
 				<a
-					href="https://www.hsdev.in/"
+					href="https://www.vrtechforz.com/"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="text-orange-500 hover:underline font-medium">
-					HSDEV
+					VR Tech Forz
 				</a>
 			</div>
 		</footer>

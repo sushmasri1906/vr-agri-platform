@@ -21,7 +21,7 @@ export default function ContactMain() {
 	};
 
 	return (
-		<section className="bg-white min-h-screen py-16 px-4 text-black">
+		<section className="bg-white min-h-screen py-10 px-4 text-black">
 			<div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
 				{/* Left Section - Contact Info */}
 				<div className="border border-orange-500 p-8 rounded-md">
@@ -41,11 +41,7 @@ export default function ContactMain() {
 							<FiMapPin className="text-orange-500 mt-1" />
 							<div>
 								<p className="font-bold">Address</p>
-								<p>
-									#101, Dwarakapuri Colony,
-									<br />
-									Hyderabad, Telangana – 500082
-								</p>
+								<p>Hyderabad,India</p>
 							</div>
 						</div>
 
@@ -54,14 +50,6 @@ export default function ContactMain() {
 							<div>
 								<p className="font-bold">Email</p>
 								<p>contact@vragrifarms.com</p>
-							</div>
-						</div>
-
-						<div className="flex gap-4">
-							<FiPhone className="text-orange-500 mt-1" />
-							<div>
-								<p className="font-bold">Phone</p>
-								<p>+91 9515934289</p>
 							</div>
 						</div>
 
